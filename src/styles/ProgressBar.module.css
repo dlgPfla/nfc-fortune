@@ -1,0 +1,24 @@
+.bar {
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+}
+
+/* 빈 칸 / 찬 칸 공통 */
+.blockEmpty,
+.blockFilled {
+  width: 14px;
+  height: 14px;
+  
+}
+
+/* 채워진 칸: 꽉 찬 흰색 */
+.blockFilled {
+  background: #ffffff;
+}
+
+/* 빈 칸: 테두리만 흰색 */
+.blockEmpty {
+  background: transparent;
+  border: 1px solid #ffffff;
+}

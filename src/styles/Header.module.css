@@ -1,0 +1,62 @@
+/* src/styles/Header.module.css */
+
+.header {
+  width: 100%;
+  color: #3750c5;
+  margin-bottom: 12px;
+}
+
+/* 맨 위 두 줄 */
+.doubleLine {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-bottom: 8px;
+}
+
+.line {
+  width: 100%;
+  border-top: 3px solid #7D9EFA;
+  margin-top: 3px;
+}
+.line2 {
+  width: 100%;
+  border-top: 1px solid #7D9EFA;
+  margin-top: 3px;
+  
+}
+
+/* 타이틀 */
+.title {
+  color: #6088F8;
+text-align: center;
+font-family: "Playfair Display SC";
+font-size: 32px;
+font-style: normal;
+font-weight: 900;
+line-height: 100%; /* 48px */
+}
+
+/* credit 영역 (위에 한 줄, 아래 한 줄) */
+.creditBlock {
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+
+.creditLine {
+  width: 100%;
+  border-top: 1px solid #7D9EFA;
+}
+
+.credit {
+  color: #6088F8;
+text-align: center;
+font-family: "PT Serif Caption";
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 50%; /* 19.5px */
+}

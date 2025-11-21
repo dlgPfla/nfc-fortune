@@ -1,0 +1,37 @@
+/* 전체 기본 리셋 + 스크롤 제거 */
+/* === Webfont Import === */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption&display=swap');
+
+/* ZEN SERIF TTF 등록 */
+/* src/styles/index.css */
+
+@font-face {
+  font-family: "ZEN SERIF TTF";
+  
+  src: url("/fonts/ZenSerif.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;         /* ✅ 여기서 아예 스크롤을 막아버림 */
+  font-family: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui,
+    sans-serif;
+}
+
+body {
+  background-color: #dde5ff; /* 바깥 연보라 */
+}
