@@ -3,7 +3,7 @@
 
 
 .viewport {
-  height: 100%;                  /* ✅ #root 기준 100% */
+  height: 105%;                  /* ✅ #root 기준 100% */
   display: flex;
   justify-content: center;       /* 가로 가운데 */
   align-items: center;           /* 세로 가운데 */
@@ -15,12 +15,12 @@
   width: min(100%, 430px);
   height: 100%;      /* 적당한 카드 높이 (기본 폰 높이 안) */
   background: #f7f5ff;
-  border-radius: 12px;
+  
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
 
-  padding: 60px 20px 24px;       /* 🔽 위아래 패딩 줄임 */
+  padding: 60px 20px 14px;       /* 🔽 위아래 패딩 줄임 */
   box-sizing: border-box;
-  overflow: hidden;              /* ✅ 카드 내부 스크롤도 막기 */
+                /* ✅ 카드 내부 스크롤도 막기 */
 
   display: flex;
   flex-direction: column;

@@ -68,7 +68,7 @@ export default function FortunePage() {
 
           <button className={styles.instagramButton}>
             <span className={styles.instagramIcon}>
-              <img src="src/images/NIEdu_logo.svg" alt="" />
+              <img src="/images/NIEdu_logo.svg" alt="" />
             </span>
             NIEdu 인스타 방문하기
           </button>
