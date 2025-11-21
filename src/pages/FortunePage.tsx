@@ -66,12 +66,17 @@ export default function FortunePage() {
             이 흘러오는지 궁금하지는 않나요?
           </p>
 
-          <button className={styles.instagramButton}>
-            <span className={styles.instagramIcon}>
-              <img src="/images/NIEdu_logo.svg" alt="" />
-            </span>
-            NIEdu 인스타 방문하기
-          </button>
+          <a
+  href="https://www.instagram.com/niedu_official/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className={styles.instagramButton}
+>
+  <span className={styles.instagramIcon}>
+    <img src="/images/NIEdu_logo.svg" alt="" />
+  </span>
+  NIEdu 인스타 방문하기
+</a>
 
           <div className={styles.lineThin}></div>
           <div className={styles.lineThick}></div>
